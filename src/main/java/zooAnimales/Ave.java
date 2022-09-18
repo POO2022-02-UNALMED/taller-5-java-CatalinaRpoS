@@ -16,7 +16,7 @@ public class Ave extends Animal{
         this.setGenero(genero);
         this.colorPlumas = colorPlumas;
 
-        listado.add(this); // Agrego el animal que se creó
+        listado.add(this); // Agrego el animal
     }
 
     public static int cantidadAves(){
@@ -38,12 +38,12 @@ public class Ave extends Animal{
         return new Ave(nombre, edad, "montanas", genero, "blanco y amarillo");
     }
 
-    // Métodos set
+    // Metodos set
     public void setColorPlumas(String colorPlumas){
         this.colorPlumas = colorPlumas;
     }
 
-    // Métodos get
+    // Metodos get
     public String getColorPlumas(){
         return this.colorPlumas;
     }

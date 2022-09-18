@@ -18,7 +18,7 @@ public class Mamifero extends Animal{
         this.pelaje = pelaje;
         this.patas = patas;
 
-        listado.add(this); // Agrego el animal que se creó
+        listado.add(this); // Agrego el animal
     }
 
     public static int cantidadMamiferos(){
@@ -35,7 +35,7 @@ public class Mamifero extends Animal{
         return new Mamifero(nombre, edad, "selva", genero, true, 4);
     }
 
-    // Métodos set
+    // Metodos set
     public void setPelaje(boolean pelaje){
         this.pelaje = pelaje;
     }
@@ -44,7 +44,7 @@ public class Mamifero extends Animal{
         this.patas = patas;
     }
 
-    // Métodos get
+    // Metodos get
     public boolean isPelaje(){
         return this.pelaje;
     }

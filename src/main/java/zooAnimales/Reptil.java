@@ -18,7 +18,7 @@ public class Reptil extends Animal{
         this.colorEscamas = colorEscamas;
         this.largoCola = largoCola;
 
-        listado.add(this); // Agrego el animal que se creó
+        listado.add(this); // Agrego el animal
     }
 
     public static int cantidadReptiles(){
@@ -40,7 +40,7 @@ public class Reptil extends Animal{
         return new Reptil(nombre, edad, "jungla", genero, "blanca", 1);
     }
 
-    // Métodos set
+    // Metodos set
     public void setColorEscamas(String colorEscamas){
         this.colorEscamas = colorEscamas;
     }
@@ -49,7 +49,7 @@ public class Reptil extends Animal{
         this.largoCola = largoCola;
     }
 
-    // Métodos get
+    // Metodos get
     public String getColorEscamas(){
         return this.colorEscamas;
     }

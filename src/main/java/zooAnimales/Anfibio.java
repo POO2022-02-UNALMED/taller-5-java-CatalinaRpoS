@@ -18,7 +18,7 @@ public class Anfibio extends Animal{
         this.colorPiel = colorPiel;
         this.venenoso = venenoso;
 
-        listado.add(this); // Agrego el animal que se creó
+        listado.add(this); // Agrego el animal
     }
     
     public static int cantidadAnfibios(){
@@ -40,7 +40,7 @@ public class Anfibio extends Animal{
         return new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
     }
 
-    // Métodos set
+    // Metodos set
     public void setColorPiel(String colorPiel){
         this.colorPiel = colorPiel;
     }
@@ -49,7 +49,7 @@ public class Anfibio extends Animal{
         this.venenoso = venenoso;
     }
 
-    // Métodos get
+    // Metodos get
     public String getColorPiel(){
         return this.colorPiel;
     }

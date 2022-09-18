@@ -25,7 +25,7 @@ public class Zoologico {
         return total;
     }
 
-    // Métodos set
+    // Metodos set
     public void setNombre(String nombre){
         this.nombre = nombre;
     }
@@ -34,7 +34,7 @@ public class Zoologico {
         this.ubicacion = ubicacion;
     }
 
-    // Métodos get
+    // Metodos get
     public String getNombre(){
         return this.nombre;
     }

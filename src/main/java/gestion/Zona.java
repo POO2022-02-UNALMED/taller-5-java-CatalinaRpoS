@@ -22,7 +22,7 @@ public class Zona {
         return animales.size();
     }
 
-    // Métodos set
+    // Metodos set
     public void setNombre(String nombre){
         this.nombre = nombre;
     }
@@ -31,7 +31,7 @@ public class Zona {
         this.zoo = zoo;
     }
 
-    // Métodos get
+    // Metodos get
     public String getNombre(){
         return this.nombre;
     }

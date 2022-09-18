@@ -18,7 +18,7 @@ public class Pez extends Animal{
         this.colorEscamas = colorEscamas;
         this.cantidadAletas = cantidadAletas;
 
-        listado.add(this); // Agrego el animal que se creó
+        listado.add(this); // Agrego el animal
     }
 
     public static int cantidadPeces(){
@@ -40,7 +40,7 @@ public class Pez extends Animal{
         return new Pez(nombre, edad, "oceano", genero, "gris", 6);
     }
 
-    // Métodos set
+    // Metodos set
     public void setColorEscamas(String colorEscamas){
         this.colorEscamas = colorEscamas;
     }
@@ -49,7 +49,7 @@ public class Pez extends Animal{
         this.cantidadAletas = cantidadAletas;
     }
 
-    // Métodos get
+    // Metodos get
     public String getColorEscamas(){
         return this.colorEscamas;
     }

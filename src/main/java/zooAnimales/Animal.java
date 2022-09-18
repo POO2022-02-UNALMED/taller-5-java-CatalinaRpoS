@@ -41,9 +41,7 @@ public class Animal {
         }
     }
     
-    // Métodos set
-    // Considero que no debo crear un método set para el totalAnimales, porque esto interferiría con
-    // el correcto funcionamiento del programa
+    // Metodos set
     public void setNombre(String nombre){
         this.nombre = nombre;
     }
@@ -60,7 +58,7 @@ public class Animal {
         this.genero = genero;
     }
 
-    // Métodos get
+    // Metodos get
     public String getNombre(){
         return this.nombre;
     }
