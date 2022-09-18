@@ -18,7 +18,7 @@ public class TestRetornos {
 
 	@Test
    	public void testTotalTipo(){
-		
+
 		new Anfibio();
 		new Anfibio();
 		new Mamifero();
@@ -39,10 +39,10 @@ public class TestRetornos {
 		}
 		assertTrue(ok, "Hay un problema en el metodo totalPorTipos");
     }
-	
+
 	@Test
    	public void testToString(){
-		
+
 		Ave an2 = new Ave("paloma", 5, "ciudad", "F", "gris");
 		boolean ok = false;
 		String  comp = "Mi nombre es paloma, tengo una edad de 5, habito en ciudad y mi genero es F";
@@ -51,10 +51,10 @@ public class TestRetornos {
 		}
 		assertTrue(ok, "Hay un problema en el metodo toString de la clase Animal");
     }
-	
+
 	@Test
    	public void testMovimiento(){
-		
+
 		Animal a1 = new Anfibio();
 		Animal a2 = new Ave();
 		Animal a3 = new Mamifero();
