@@ -8,7 +8,9 @@ public class Reptil extends Animal{
     private String colorEscamas;
     private int largoCola;
 
-    public Reptil(){}
+    public Reptil(){
+    	listado.add(this); // Agrego el animal
+    }
 
     public Reptil(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola){
         this.setNombre(nombre);
@@ -36,7 +38,7 @@ public class Reptil extends Animal{
     }
 
     public static Reptil crearSerpiente(String nombre, int edad, String genero){
-        iguanas++;
+        serpientes++;
         return new Reptil(nombre, edad, "jungla", genero, "blanca", 1);
     }
 
