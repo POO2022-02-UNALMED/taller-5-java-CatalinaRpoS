@@ -10,7 +10,9 @@ public class Animal {
     private String genero;
     private Zona zona;
 
-    public Animal(){}
+    public Animal(){
+        totalAnimales++;
+    }
 
     public Animal(String nombre, int edad, String habitat, String genero){
         this.nombre = nombre;
