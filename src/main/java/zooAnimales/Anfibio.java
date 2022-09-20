@@ -9,14 +9,12 @@ public class Anfibio extends Animal{
     private boolean venenoso;
 
     public Anfibio(){
+    	super();
     	listado.add(this); // Agrego el animal
     }
 
     public Anfibio(String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso){
-        this.setNombre(nombre);
-        this.setEdad(edad);
-        this.setHabitat(habitat);
-        this.setGenero(genero);
+    	super(nombre, edad, habitat, genero);
         this.colorPiel = colorPiel;
         this.venenoso = venenoso;
 
